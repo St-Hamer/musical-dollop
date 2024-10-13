@@ -1,0 +1,46 @@
+.cartocha {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+.article_vid{
+    min-width: 320px;
+    max-width: 400px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #60239c;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+    
+}
+.article_vid.first{
+    background-color: #c57fff;
+}
+.article_vid.second{
+    background-color: #9c78ff;
+}
+.article_vid.third{
+    background-color: #e681ff;
+}
+.article_vid.four{
+    background-color: #ff81cb;
+}
+.article_vid.five{
+    background-color: #ff8181;
+}
+section{
+    background-color: #d0a3fd;
+    border-style: solid;
+    border-color: #7a00f5;
+    border-radius: 10px;
+}
+body{
+    background-color: #0a0a0a;
+}
+table{
+    border-radius: 10px;
+    border-color: #60239c; 
+    border-style: inset;
+}
