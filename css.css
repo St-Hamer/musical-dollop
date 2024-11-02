@@ -16,7 +16,7 @@
     }
     @media screen and (orientation: portrait) {
         min-width: 100px;
-        max-width: 300px;
+        max-width: 280px;
     }
     border-style: solid;
     border-radius: 10px;
