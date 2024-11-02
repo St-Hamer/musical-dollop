@@ -10,8 +10,14 @@
     flex-wrap: wrap
 }
 .article_vid{
-    min-width: 100px;
-    max-width: 320px;
+    @media screen and (orientation: landscape) {
+        min-width: 320px;
+        max-width: 400px;
+    }
+    @media screen and (orientation: portrait) {
+        min-width: 100px;
+        max-width: 300px;
+    }
     border-style: solid;
     border-radius: 10px;
     border-color: #60239c;
