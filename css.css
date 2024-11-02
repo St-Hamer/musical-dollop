@@ -1,11 +1,16 @@
 .cartocha {
     display: flex;
-    flex-direction: row;
+    @media screen and (orientation: landscape) {
+        flex-direction: row;
+    }
+    @media screen and (orientation: portrait) {
+        flex-direction: column;
+    }
     justify-content: space-evenly;
     flex-wrap: wrap
 }
 .article_vid{
-    min-width: 200px;
+    min-width: 320px;
     max-width: 400px;
     border-style: solid;
     border-radius: 10px;
@@ -43,4 +48,7 @@ table{
     border-radius: 10px;
     border-color: #60239c; 
     border-style: inset;
+}
+h1 {
+    text-align: center;
 }
