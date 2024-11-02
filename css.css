@@ -3,7 +3,7 @@
     @media screen and (orientation: landscape) {
         flex-direction: row;
     }
-    @media screen and (orientation: portrait) and (max-width:500px) {
+    @media screen and (orientation: portrait) and (max-width:700px) {
         flex-direction: column;
     }
     justify-content: space-evenly;
@@ -16,7 +16,7 @@
     }
     @media screen and (orientation: portrait) {
         min-width: 100px;
-        max-width: 70%;
+        max-width: 90%;
     }
     border-style: solid;
     border-radius: 10px;
