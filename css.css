@@ -10,7 +10,8 @@
     flex-wrap: wrap
 }
 .article_vid{
-    max-width: 400px;
+    min-width: 100px;
+    max-width: 320px;
     border-style: solid;
     border-radius: 10px;
     border-color: #60239c;
