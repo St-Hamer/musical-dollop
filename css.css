@@ -2,11 +2,12 @@
     display: flex;
     @media screen and (orientation: landscape) {
         flex-direction: row;
+        justify-content: space-evenly;
     }
     @media screen and (orientation: portrait) and (max-width:700px) {
         flex-direction: column;
+        justify-content: space-around;
     }
-    justify-content: space-evenly;
     flex-wrap: wrap
 }
 .article_vid{
@@ -16,7 +17,7 @@
     }
     @media screen and (orientation: portrait) {
         min-width: 100px;
-        max-width: 90%;
+        max-width: 70%;
     }
     border-style: solid;
     border-radius: 10px;
